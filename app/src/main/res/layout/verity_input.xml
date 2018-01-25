@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/common_input_height"
+    android:background="@drawable/common_input_nor_bg"
+    android:paddingLeft="@dimen/common_input_padding"
+    android:paddingRight="@dimen/common_input_padding">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/common_input_left_image_width"
+        android:layout_height="@dimen/common_input_left_image_height"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/yanzhengma" />
+
+    <TextView
+        android:id="@+id/verify"
+        android:layout_width="@dimen/common_verity_input_text_width"
+        android:layout_height="@dimen/common_verity_input_text_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/verity_input_bg"
+        android:gravity="center"
+        android:text="@string/common_get_verity"
+        android:textColor="@color/white"
+        android:textSize="@dimen/common_verity_input_text_size" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/common_input_text_margin_left"
+        android:layout_marginRight="@dimen/common_input_text_margin_left"
+        android:layout_toLeftOf="@id/verify"
+        android:layout_toRightOf="@id/image"
+        android:hint="请输入验证码"
+        android:singleLine="true"
+        android:background="@null"
+        android:textSize="@dimen/common_input_hint_text_size" />
+
+
+</RelativeLayout>

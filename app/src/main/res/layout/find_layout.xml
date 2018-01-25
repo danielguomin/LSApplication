@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/find_tab_height"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/byPhone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="@string/find_tab_phone"
+            android:textColor="@color/find_tab_text_selected_color"
+            android:textSize="@dimen/find_tab_text_size" />
+
+        <TextView
+            android:id="@+id/byEmail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/find_tab_normal_bg_color"
+            android:gravity="center"
+            android:text="@string/find_tab_email"
+            android:textColor="@color/find_tab_text_normal_color"
+            android:textSize="@dimen/find_tab_text_size" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/find_input_margin_top"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.train.lingshi.widget.ClearEditText
+            android:id="@+id/phone"
+            android:layout_width="@dimen/common_input_wdith"
+            android:layout_height="@dimen/common_input_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/common_input_margin_top"
+            android:background="@drawable/common_input_nor_bg"
+            android:drawableLeft="@mipmap/shuruzhanghao"
+            android:drawablePadding="@dimen/common_input_text_margin_left"
+            android:hint="@string/find_hint_phone"
+            android:paddingLeft="@dimen/common_input_padding"
+            android:paddingRight="@dimen/common_input_padding"
+            android:singleLine="true"
+            android:textSize="@dimen/common_input_hint_text_size" />
+
+        <com.train.lingshi.widget.VerifyEditText
+            android:id="@+id/sms"
+            android:layout_width="@dimen/common_input_wdith"
+            android:layout_height="@dimen/common_input_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/common_input_margin_top" />
+
+        <TextView
+            android:id="@+id/find_sms_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/find_email_tip_margin_left"
+            android:layout_marginTop="@dimen/find_email_tip_margin_top"
+            android:text="@string/find_email_tip"
+            android:textColor="@color/find_email_tip_text_color"
+            android:textSize="@dimen/find_email_tip_text_size"
+            android:visibility="gone" />
+
+
+        <com.train.lingshi.widget.ClearEditText
+            android:id="@+id/password"
+            android:layout_width="@dimen/common_input_wdith"
+            android:layout_height="@dimen/common_input_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/common_input_margin_top"
+            android:background="@drawable/common_input_nor_bg"
+            android:drawableLeft="@mipmap/mima"
+            android:drawablePadding="@dimen/common_input_text_margin_left"
+            android:hint="@string/find_hint_password"
+            android:paddingLeft="@dimen/common_input_padding"
+            android:paddingRight="@dimen/common_input_padding"
+            android:singleLine="true"
+            android:textSize="@dimen/common_input_hint_text_size" />
+
+
+        <com.train.lingshi.widget.ClearEditText
+            android:id="@+id/confirm"
+            android:layout_width="@dimen/common_input_wdith"
+            android:layout_height="@dimen/common_input_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/common_input_margin_top"
+            android:background="@drawable/common_input_nor_bg"
+            android:drawableLeft="@mipmap/mima"
+            android:drawablePadding="@dimen/common_input_text_margin_left"
+            android:hint="@string/find_hint_password_confirm"
+            android:paddingLeft="@dimen/common_input_padding"
+            android:paddingRight="@dimen/common_input_padding"
+            android:singleLine="true"
+            android:textSize="@dimen/common_input_hint_text_size" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/find"
+        android:layout_width="@dimen/login_register_button_width"
+        android:layout_height="@dimen/login_register_button_height"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/login_register_button_margin_button"
+        android:background="@drawable/login_register_btn_bg"
+        android:text="@string/find_confirm"
+        android:textSize="@dimen/login_register_button_text_size" />
+
+</LinearLayout>
+
+

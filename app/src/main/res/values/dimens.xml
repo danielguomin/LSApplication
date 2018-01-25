@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- titleBar-->
+    <dimen name="title_height">48dp</dimen>
+    <dimen name="title_back_width">16dp</dimen>
+    <dimen name="title_back_height">14dp</dimen>
+    <dimen name="title_back_left_margin">16dp</dimen>
+    <dimen name="title_text_size">18sp</dimen>
+    <dimen name="title_text_margin_left">6dp</dimen>
+
+    <!-- common -->
+    <dimen name="common_input_height">34dp</dimen>
+    <dimen name="common_input_wdith">288dp</dimen>
+    <dimen name="common_input_margin_top">20dp</dimen>
+    <dimen name="common_input_hint_text_size">13sp</dimen>
+    <dimen name="common_input_text_margin_left">6dp</dimen>
+    <dimen name="common_input_padding">10dp</dimen>
+    <dimen name="common_input_left_image_width">12dp</dimen>
+    <dimen name="common_input_left_image_height">15dp</dimen>
+    <dimen name="common_input_right_image_width">16dp</dimen>
+    <dimen name="common_input_right_image_height">10dp</dimen>
+    <dimen name="common_verity_input_text_size">12sp</dimen>
+    <dimen name="common_verity_input_text_width">86dp</dimen>
+    <dimen name="common_verity_input_text_height">23dp</dimen>
+
+
+    <!-- login -->
+    <dimen name="login_logo_width">92dp</dimen>
+    <dimen name="login_logo_height">122dp</dimen>
+    <dimen name="login_logo_margin_top">56dp</dimen>
+    <dimen name="login_input_layout_margin_top">43dp</dimen>
+    <dimen name="login_find_layout_margin_top">6dp</dimen>
+    <dimen name="login_find_margin_left">10dp</dimen>
+    <dimen name="login_register_margin_right">10dp</dimen>
+    <dimen name="login_find_text_size">12sp</dimen>
+    <dimen name="login_register_text_size">12sp</dimen>
+    <dimen name="login_register_button_width">288dp</dimen>
+    <dimen name="login_register_button_height">40dp</dimen>
+    <dimen name="login_register_button_margin_button">40dp</dimen>
+    <dimen name="login_register_button_text_size">18sp</dimen>
+
+    <!-- register -->
+    <dimen name="register_logo_width_height">79dp</dimen>
+    <dimen name="register_logo_margin_top">15dp</dimen>
+    <dimen name="register_input_margin_top">30dp</dimen>
+    <dimen name="register_error_margin_buttom">2dp</dimen>
+    <dimen name="register_error_margin_top">2dp</dimen>
+    <dimen name="register_error_margin_left">70dp</dimen>
+    <dimen name="register_error_size">12sp</dimen>
+    <dimen name="register_error_height">14dp</dimen>
+    <dimen name="register_subject_tip_size">13sp</dimen>
+    <dimen name="register_subject_tip_margin_left">50dp</dimen>
+    <dimen name="register_subject_tip_margin_top">6dp</dimen>
+    <dimen name="register_pop_width">330dp</dimen>
+    <dimen name="register_pop_height">132dp</dimen>
+    <dimen name="register_pop_margin_buttom">23dp</dimen>
+    <dimen name="register_pop_item_height">44dp</dimen>
+    <dimen name="register_pop_item_text_size">16sp</dimen>
+
+    <!-- find -->
+    <dimen name="find_tab_height">40dp</dimen>
+    <dimen name="find_tab_text_size">18sp</dimen>
+    <dimen name="find_input_margin_top">50dp</dimen>
+    <dimen name="find_email_tip_margin_left">51dp</dimen>
+    <dimen name="find_email_tip_margin_top">4dp</dimen>
+    <dimen name="find_email_tip_margin_buttom">18dp</dimen>
+    <dimen name="find_email_tip_text_size">12sp</dimen>
+
+
+
+
+
+
+</resources>

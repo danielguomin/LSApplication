@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <!-- title -->
+    <color name="title_bg">#4990E2</color>
+
+    <!-- login -->
+    <color name="login_tab_text_color">#FFFFFF</color>
+    <color name="login_retrieve_password_text_color">#000000</color>
+    <color name="login_find_text_color">#AAAAAB</color>
+    <color name="login_register_text_color">#4A90E2</color>
+    <color name="login_btn_color">#4A90E2</color>
+
+    <!-- register -->
+    <color name="register_error_text_color">#FFE8404B</color>
+    <color name="register_subject_tip_color">#FF000000</color>
+    <color name="register_subject_item_color">#FFE9E9E9</color>
+    <color name="register_pop_item_text_color">#FF636363</color>
+
+    <!-- find -->
+    <color name="find_tab_text_selected_color">#FF4990E2</color>
+    <color name="find_tab_text_normal_color">#FF9B9B9B</color>
+    <color name="find_tab_normal_bg_color">#FFD8D8D8</color>
+    <color name="find_email_tip_text_color">#FF8EBBF1</color>
+
+
+
+</resources>

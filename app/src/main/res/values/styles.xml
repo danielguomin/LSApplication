@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.NoActionBar.Fullscreen">
+
+    </style>
+
+    <style name="register_pop_style">
+        <item name="android:windowEnterAnimation">@anim/register_pop_show</item>
+        <item name="android:windowExitAnimation">@anim/register_pop_dismiss</item>
+    </style>
+</resources>

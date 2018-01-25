@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">领师</string>
+
+
+    <!-- common -->
+    <string name="common_get_verity">获取验证码</string>
+    <string name="common_get_verity_again">重新获取</string>
+
+    <!-- login -->
+    <string name="login">登陆</string>
+    <string name="login_retrieve_password">忘记密码？</string>
+    <string name="login_register">新用户注册</string>
+
+    <!-- register -->
+    <string name="register">注册</string>
+    <string name="register_phone_tip_error">请输入正确的手机号</string>
+    <string name="register_phone_tip_exist">手机号已注册</string>
+    <string name="register_sms_tip">请输入正确的验证码</string>
+    <string name="register_email_tip">请输入正确邮箱地址</string>
+    <string name="register_subject_info">所选学科可以在[我的菜单]里随时更改</string>
+
+
+    <!-- find -->
+    <string name="find_tab_phone">手机号</string>
+    <string name="find_tab_email">邮箱</string>
+    <string name="find_email_tip">请到您的邮箱收取验证码</string>
+    <string name="find_confirm">确认</string>
+    <string name="find_hint_phone">请输入手机号</string>
+    <string name="find_hint_email">注册时邮箱</string>
+    <string name="find_hint_sms">短信验证码</string>
+    <string name="find_hint_password">重置密码</string>
+    <string name="find_hint_password_confirm">确认新密码</string>
+
+</resources>

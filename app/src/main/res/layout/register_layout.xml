@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:edit="http://schemas.android.com/apk/res/com.train.lingshi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar" />
+
+
+    <ImageView
+        android:layout_width="@dimen/register_logo_width_height"
+        android:layout_height="@dimen/register_logo_width_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/register_logo_margin_top"
+        android:src="@mipmap/logo" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/register_input_margin_top"
+            android:orientation="vertical">
+
+            <com.train.lingshi.widget.ClearEditText
+                android:id="@+id/username"
+                android:layout_width="@dimen/common_input_wdith"
+                android:layout_height="@dimen/common_input_height"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/common_input_nor_bg"
+                android:drawableLeft="@mipmap/shuruxingming"
+                android:drawablePadding="@dimen/common_input_text_margin_left"
+                android:hint="请输入姓名"
+                android:paddingLeft="@dimen/common_input_padding"
+                android:paddingRight="@dimen/common_input_padding"
+                android:singleLine="true"
+                android:textSize="@dimen/common_input_hint_text_size" />
+
+
+            <com.train.lingshi.widget.ClearEditText
+                android:id="@+id/phone"
+                android:layout_width="@dimen/common_input_wdith"
+                android:layout_height="@dimen/common_input_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/common_input_margin_top"
+                android:background="@drawable/common_input_nor_bg"
+                android:drawableLeft="@mipmap/shuruzhanghao"
+                android:drawablePadding="@dimen/common_input_text_margin_left"
+                android:hint="请输入手机号码"
+                android:paddingLeft="@dimen/common_input_padding"
+                android:paddingRight="@dimen/common_input_padding"
+                android:singleLine="true"
+                android:textSize="@dimen/common_input_hint_text_size" />
+
+            <TextView
+                android:id="@+id/phone_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/register_error_height"
+                android:layout_marginBottom="@dimen/register_error_margin_buttom"
+                android:layout_marginLeft="@dimen/register_error_margin_left"
+                android:layout_marginTop="@dimen/register_error_margin_top"
+                android:text="@string/register_phone_tip_error"
+                android:textColor="@color/register_error_text_color"
+                android:textSize="@dimen/register_error_size"
+                android:visibility="invisible" />
+
+            <com.train.lingshi.widget.VerifyEditText
+                android:id="@+id/sms"
+                android:layout_width="@dimen/common_input_wdith"
+                android:layout_height="@dimen/common_input_height"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/sms_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/register_error_height"
+                android:layout_marginBottom="@dimen/register_error_margin_buttom"
+                android:layout_marginLeft="@dimen/register_error_margin_left"
+                android:layout_marginTop="@dimen/register_error_margin_top"
+                android:text="@string/register_sms_tip"
+                android:textColor="@color/register_error_text_color"
+                android:textSize="@dimen/register_error_size"
+                android:visibility="invisible" />
+
+            <com.train.lingshi.widget.ClearEditText
+                android:id="@+id/email"
+                android:layout_width="@dimen/common_input_wdith"
+                android:layout_height="@dimen/common_input_height"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/common_input_nor_bg"
+                android:drawableLeft="@mipmap/youxiang"
+                android:drawablePadding="@dimen/common_input_text_margin_left"
+                android:hint="请输入邮箱"
+                android:paddingLeft="@dimen/common_input_padding"
+                android:paddingRight="@dimen/common_input_padding"
+                android:singleLine="true"
+                android:textSize="@dimen/common_input_hint_text_size" />
+
+            <TextView
+                android:id="@+id/email_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/register_error_height"
+                android:layout_marginBottom="@dimen/register_error_margin_buttom"
+                android:layout_marginLeft="@dimen/register_error_margin_left"
+                android:layout_marginTop="@dimen/register_error_margin_top"
+                android:text="@string/register_email_tip"
+                android:textColor="@color/register_error_text_color"
+                android:textSize="@dimen/register_error_size"
+                android:visibility="invisible" />
+
+            <com.train.lingshi.widget.ClearEditText
+                android:id="@+id/password"
+                android:layout_width="@dimen/common_input_wdith"
+                android:layout_height="@dimen/common_input_height"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/common_input_nor_bg"
+                android:drawableLeft="@mipmap/mima"
+                android:drawablePadding="@dimen/common_input_text_margin_left"
+                android:hint="请输入密码"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/common_input_padding"
+                android:paddingRight="@dimen/common_input_padding"
+                android:singleLine="true"
+                android:textSize="@dimen/common_input_hint_text_size" />
+
+            <com.train.lingshi.widget.ClearEditText
+                android:id="@+id/subject"
+                android:layout_width="@dimen/common_input_wdith"
+                android:layout_height="@dimen/common_input_height"
+                android:focusable="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/common_input_margin_top"
+                android:background="@drawable/common_input_nor_bg"
+                android:drawableLeft="@mipmap/xuanzexueke"
+                android:drawablePadding="@dimen/common_input_text_margin_left"
+                android:drawableRight="@mipmap/xialaxuankuang"
+                android:hint="请选择您的学科"
+                android:paddingLeft="@dimen/common_input_padding"
+                android:paddingRight="@dimen/common_input_padding"
+                android:singleLine="true"
+                android:textSize="@dimen/common_input_hint_text_size"
+                edit:showRight="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/register_subject_tip_margin_left"
+                android:layout_marginTop="@dimen/register_subject_tip_margin_top"
+                android:text="@string/register_subject_info"
+                android:textColor="@color/register_subject_tip_color" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="@dimen/login_register_button_width"
+        android:layout_height="@dimen/login_register_button_height"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/login_register_button_margin_button"
+        android:background="@drawable/login_register_btn_bg"
+        android:text="@string/register"
+        android:textSize="@dimen/login_register_button_text_size" />
+
+
+</LinearLayout>
