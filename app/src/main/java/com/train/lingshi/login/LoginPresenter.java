@@ -15,11 +15,4 @@ public class LoginPresenter extends MvpBasePresenter<LoginView> {
 
     }
 
-    public void doLogin(){
-
-    }
-
-    public void doRegister(){
-
-    }
 }

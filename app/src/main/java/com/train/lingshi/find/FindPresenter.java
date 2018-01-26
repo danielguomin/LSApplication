@@ -11,15 +11,8 @@ import javax.inject.Inject;
 public class FindPresenter extends MvpBasePresenter<FindView> {
 
     @Inject
-    public FindPresenter(){
+    public FindPresenter() {
 
     }
 
-    public void doLogin(){
-
-    }
-
-    public void doRegister(){
-
-    }
 }

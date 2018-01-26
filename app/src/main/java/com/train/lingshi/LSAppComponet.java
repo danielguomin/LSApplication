@@ -8,4 +8,6 @@ import dagger.Component;
 
 @Component(modules = APPModule.class)
 public interface LSAppComponet {
+
+
 }
